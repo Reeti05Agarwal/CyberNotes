@@ -1,2 +1,2 @@
-# Basic\_Theory
+# Basic Theory
 
