@@ -12,7 +12,7 @@ So it's a competition when one needs to solve various challenges and earn the mo
 
 * [Cryptography](crypto/)
 * [Web](web/)
-* [Steganography](steganography.md)
+* [Steganography](steganography/)
 * [Forensics](forensics/)
 * [Reverse Engineering](reverse-engineering.md)
 * [Pwn/Exploitation](pwn-exploitation.md)

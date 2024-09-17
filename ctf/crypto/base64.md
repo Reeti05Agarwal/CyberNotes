@@ -2,6 +2,24 @@
 
 [Base64](https://en.wikipedia.org/wiki/Base64)
 
+* length: Multiple of 4
+* Consist of characters from the Base64 alphabet: `A-Z`, `a-z`, `0-9`, `+`, `/`, and `=` (for padding).
+
+## Encode & Decode shell
+
+### **base64 function**
+
+<pre><code>echo -n 'Hello, World!' | base64
+<strong>
+</strong><strong>OUTPUT: SGVsbG8sIFdvcmxkIQ==
+</strong></code></pre>
+
+_**-n**_** flag with** [_**echo**_](https://www.baeldung.com/linux/echo-command) **to prevent adding a trailing newline character to the string before performing the Base64 encoding**
+
+```
+echo -n 'Hello, World!' | base64 - 
+```
+
 used **to encode binary data as printable text of set of 64 different ASCII characters**. This allows you to transport binary over protocols or mediums that cannot handle binary data formats and require simple text.
 
 represent [binary data](https://en.wikipedia.org/wiki/Binary\_data) (more specifically, a sequence of 8-bit [bytes](https://en.wikipedia.org/wiki/Byte)) in sequences of 24 [bits](https://en.wikipedia.org/wiki/Bit) that can be represented by four 6-bit Base64 digits.
@@ -12,7 +30,7 @@ Base64 is also widely used for sending [e-mail](https://en.wikipedia.org/wiki/E-
 
 Each character in the Base64 encoding represents 6 bits of the original binary data.
 
-### How to identify if its base64:
+## \&How to identify if its base64:
 
 1. **Check for Padding**: Base64-encoded strings are often padded with one or two equal signs ('=') at the end. If you see one or two equal signs at the end of the text, it's a strong indicator of Base64 encoding.
 2. **Length**: Base64-encoded data typically has a length that is a multiple of 4 characters. If the length of the text is not a multiple of 4, it might not be Base64 encoded.
