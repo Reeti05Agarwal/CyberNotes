@@ -1,4 +1,4 @@
-# Basic Principles d89cb41cd1ef4f3d86c33c0c2db54e2a
+# Basic Principles
 
 ## Basic Principles
 
@@ -12,11 +12,7 @@ Doc created at the initial stages of a penetration testing engagement. responsib
 
 **Tools for Documentation:** Word processors (e.g., Google Docs, OneNote), ticketing systems (e.g., Jira), spreadsheets (e.g., Google Sheets), audio recorders, cameras, handwritten notes.
 
-## Types of Vulnerability List:
-
-### CWE
-
-Common Weakness Enumeration
+## &#x20;
 
 ***
 
@@ -118,18 +114,5 @@ Each type of indicator of compromise is separated into levels of difficulty. The
 
 **Analyze indicators of compromise with investigative tools:**
 
-### The power of crowdsourcing
+###
 
-**Crowdsourcing** is the practice of gathering information using public input and collaboration. Threat intelligence platforms use crowdsourcing to collect information from the global cybersecurity community. Traditionally, an organization's response to incidents was performed in isolation. A security team would receive and analyze an alert, and then work to remediate it without additional insights on how to approach it. Without crowdsourcing, attackers can perform the same attacks against multiple organizations.
-
-**Open-source intelligence (OSINT)** is the collection and analysis of information from publicly available sources to generate usable intelligence. OSINT can also be used as a method to gather information related to threat actors, threats, vulnerabilities, and more.
-
-This threat intelligence data is used to improve the detection methods and techniques of security products, like detection tools or anti-virus software. For example, attackers often perform the same attacks on multiple targets with the hope that one of them will be successful. Once an organization detects an attack, they can immediately publish the attack details, such as malicious files, IP addresses, or URLs, to tools like VirusTotal. This threat intelligence can then help other organizations defend against the same attack.
-
-Triad
-
-Kill Chain
-
-Five Nine
-
-3 Dimensions

@@ -1,30 +1,6 @@
-# Basic Theory 2f42487328a34044b9fe138b462fd933
+# Basic Theory
 
-## Basic Theory
-
-[media.licdn.com](https://media.licdn.com/dms/document/media/D4D1FAQEUjhHBUtGktg/feedshare-document-pdf-analyzed/0/1715603834329?e=1717027200\&v=beta\&t=TjMckgYaP8q1S0WVoKAznTzcMQNgyEqmfbSW4bxgR5Y)
-
-Audits
-
-Logs
-
-Playbooks
-
-VPN
-
-Security Zones
-
-Proxy Server
-
-ARP
-
-vulnerabilities in programming
-
-Security Vulnerable
-
-Security Plans
-
-Security controls
+## &#x20;
 
 ***
 
